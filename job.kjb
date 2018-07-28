@@ -367,6 +367,16 @@
       <xloc>400</xloc>
       <yloc>80</yloc>
     </entry>
+    <entry>
+      <name>Success</name>
+      <description/>
+      <type>SUCCESS</type>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>528</xloc>
+      <yloc>80</yloc>
+    </entry>
   </entries>
   <hops>
     <hop>
@@ -381,6 +391,15 @@
     <hop>
       <from>Configure</from>
       <to>Transform</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Transform</from>
+      <to>Success</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>

@@ -16,7 +16,7 @@
       </parameter>
       <parameter>
         <name>OUTPUT_FILE</name>
-        <default_value>/var/pentaho/output</default_value>
+        <default_value>/var/pentaho/output.csv</default_value>
         <description/>
       </parameter>
     </parameters>
