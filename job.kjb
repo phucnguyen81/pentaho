@@ -311,7 +311,7 @@
       <description/>
       <type>SET_VARIABLES</type>
       <replacevars>Y</replacevars>
-      <filename>/home/phuc/var/pentaho/configs.properties</filename>
+      <filename>${Internal.Entry.Current.Directory}/configs.properties</filename>
       <file_variable_type>ROOT_JOB</file_variable_type>
       <fields>
       </fields>
