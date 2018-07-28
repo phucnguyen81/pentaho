@@ -12,12 +12,12 @@
       <parameter>
         <name>INPUT_FILE</name>
         <default_value>/var/pentaho/input.csv</default_value>
-        <description/>
+        <description>A path to an input csv file</description>
       </parameter>
       <parameter>
         <name>OUTPUT_FILE</name>
         <default_value>/var/pentaho/output.csv</default_value>
-        <description/>
+        <description>The path to the output csv file</description>
       </parameter>
     </parameters>
     <log>
@@ -520,7 +520,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>224</xloc>
+      <xloc>192</xloc>
       <yloc>96</yloc>
       <draw>Y</draw>
     </GUI>
@@ -576,7 +576,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>416</xloc>
+      <xloc>384</xloc>
       <yloc>96</yloc>
       <draw>Y</draw>
     </GUI>
