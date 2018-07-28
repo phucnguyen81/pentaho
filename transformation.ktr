@@ -6,8 +6,19 @@
     <extended_description/>
     <trans_version/>
     <trans_type>Normal</trans_type>
+    <trans_status>0</trans_status>
     <directory>/</directory>
     <parameters>
+      <parameter>
+        <name>INPUT_FILE</name>
+        <default_value>/var/pentaho/input.csv</default_value>
+        <description/>
+      </parameter>
+      <parameter>
+        <name>OUTPUT_FILE</name>
+        <default_value>/var/pentaho/output</default_value>
+        <description/>
+      </parameter>
     </parameters>
     <log>
       <trans-log-table>
@@ -453,7 +464,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>${base.dir}/${input.filename}</filename>
+    <filename>${INPUT_FILE}</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -539,10 +550,10 @@
     <fileNameField/>
     <create_parent_folder>Y</create_parent_folder>
     <file>
-      <name>${base.dir}/output</name>
+      <name>${OUTPUT_FILE}</name>
       <servlet_output>N</servlet_output>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
-      <extention>csv</extention>
+      <extention/>
       <append>N</append>
       <split>N</split>
       <haspartno>N</haspartno>

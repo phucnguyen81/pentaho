@@ -312,7 +312,7 @@
       <type>SET_VARIABLES</type>
       <replacevars>Y</replacevars>
       <filename>/home/phuc/var/pentaho/configs.properties</filename>
-      <file_variable_type>CURRENT_JOB</file_variable_type>
+      <file_variable_type>ROOT_JOB</file_variable_type>
       <fields>
       </fields>
       <parallel>N</parallel>
@@ -350,6 +350,16 @@
       <run_configuration/>
       <parameters>
         <pass_all_parameters>Y</pass_all_parameters>
+        <parameter>
+          <name>INPUT_FILE</name>
+          <stream_name/>
+          <value>${base.dir}/${input.filename}</value>
+        </parameter>
+        <parameter>
+          <name>OUTPUT_FILE</name>
+          <stream_name/>
+          <value>${base.dir}/${output.filename}</value>
+        </parameter>
       </parameters>
       <parallel>N</parallel>
       <draw>Y</draw>
