@@ -370,6 +370,11 @@
           <stream_name/>
           <value>${base.dir}/${output.dir}/${output.filename}</value>
         </parameter>
+        <parameter>
+          <name>ABORT_THRESHOLD</name>
+          <stream_name/>
+          <value>${abort.threshold}</value>
+        </parameter>
       </parameters>
       <parallel>N</parallel>
       <draw>Y</draw>
@@ -384,7 +389,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>528</xloc>
+      <xloc>544</xloc>
       <yloc>80</yloc>
     </entry>
   </entries>
