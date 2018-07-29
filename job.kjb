@@ -314,6 +314,11 @@
       <filename>${Internal.Entry.Current.Directory}/configs.properties</filename>
       <file_variable_type>ROOT_JOB</file_variable_type>
       <fields>
+        <field>
+          <variable_name>base.dir</variable_name>
+          <variable_value>${Internal.Entry.Current.Directory}</variable_value>
+          <variable_type>ROOT_JOB</variable_type>
+        </field>
       </fields>
       <parallel>N</parallel>
       <draw>Y</draw>
