@@ -363,12 +363,12 @@
         <parameter>
           <name>OUTPUT_FILE</name>
           <stream_name/>
-          <value>${base.dir}/${output.filename}</value>
+          <value>${base.dir}/${output.dir}/${output.filename}</value>
         </parameter>
         <parameter>
           <name>ERROR_FILE</name>
           <stream_name/>
-          <value>${base.dir}/${error.filename}</value>
+          <value>${base.dir}/${output.dir}/${error.filename}</value>
         </parameter>
       </parameters>
       <parallel>N</parallel>
