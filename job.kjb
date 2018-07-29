@@ -356,19 +356,19 @@
       <parameters>
         <pass_all_parameters>Y</pass_all_parameters>
         <parameter>
+          <name>ERROR_FILE</name>
+          <stream_name/>
+          <value>${base.dir}/${output.dir}/${error.filename}</value>
+        </parameter>
+        <parameter>
           <name>INPUT_FILE</name>
           <stream_name/>
-          <value>${base.dir}/${input.filename}</value>
+          <value>${base.dir}/${input.dir}/${input.filename}</value>
         </parameter>
         <parameter>
           <name>OUTPUT_FILE</name>
           <stream_name/>
           <value>${base.dir}/${output.dir}/${output.filename}</value>
-        </parameter>
-        <parameter>
-          <name>ERROR_FILE</name>
-          <stream_name/>
-          <value>${base.dir}/${output.dir}/${error.filename}</value>
         </parameter>
       </parameters>
       <parallel>N</parallel>
